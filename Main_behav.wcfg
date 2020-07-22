@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Main" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="307500fs"></ZoomStartTime>
+      <ZoomEndTime time="2991501fs"></ZoomEndTime>
+      <Cursor1Time time="5283333fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/Main/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/op1" type="array">
+      <obj_property name="ElementShortName">op1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/op2" type="array">
+      <obj_property name="ElementShortName">op2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/final" type="array">
+      <obj_property name="ElementShortName">final[63:0]</obj_property>
+      <obj_property name="ObjectShortName">final[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/ins" type="array">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/aluop" type="array">
+      <obj_property name="ElementShortName">aluop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/Alucontrol" type="array">
+      <obj_property name="ElementShortName">Alucontrol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Alucontrol[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/memtoreg" type="logic">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/memread" type="logic">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/bsignal" type="logic">
+      <obj_property name="ElementShortName">bsignal</obj_property>
+      <obj_property name="ObjectShortName">bsignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/imm" type="array">
+      <obj_property name="ElementShortName">imm[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/pc" type="array">
+      <obj_property name="ElementShortName">pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/jsignal" type="logic">
+      <obj_property name="ElementShortName">jsignal</obj_property>
+      <obj_property name="ObjectShortName">jsignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,14 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/VerilogFiles/COLabFinal/COLabFinal.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/ALU.v,1583181800,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/ALUControl.v,,ALU,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/ALUControl.v,1583533820,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/Control.v,,ALUControl,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/Control.v,1583533891,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/DataMem.v,,Control,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/DataMem.v,1583531604,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/Decoder.v,,DataMem,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/Decoder.v,1582540151,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/ImmGen.v,,Decoder,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/ImmGen.v,1583180856,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/InsMem.v,,ImmGen,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/InsMem.v,1583184535,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/RegFile.v,,InsMem,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/Main.v,1583183385,verilog,,,,Main,,,,,,,,
+D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/RegFile.v,1583184521,verilog,,D:/VerilogFiles/COLabFinal/COLabFinal.srcs/sources_1/new/Main.v,,RegFile,,,,,,,,
